@@ -7,11 +7,6 @@ header{
     padding: 10px 20px;
 }
 
-h1{
-    color: #F25A70;
-    text-shadow: 5px 5px #000;
-}
-
 nav {
     text-align: right;
 }
@@ -50,7 +45,7 @@ a:active{
     height: 60px;
     line-height: 60px;
     padding: 0px 20px;
-    box-shadow: 5px 5px 0 #000;
+    box-shadow: 5px 5px 0px #000;
     margin-right: 0;
 }
 
