@@ -56,3 +56,14 @@ a:active{
 #button:active{
     background-color: #d74d62;
 }
+
+body{
+    background-color: #af98b5;
+}
+
+h2 {
+    color:#fff;
+    font-size: 30px;
+    font-family:  'Press Start 2P',sans-serif;
+    font-weight: 400;
+}
