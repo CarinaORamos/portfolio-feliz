@@ -18,24 +18,28 @@
     <link rel="stylesheet" href="css/components.css/main-title.css">
     <link rel="stylesheet" href="css/components.css/subtitle.css">
     <link rel="stylesheet" href="css/components.css/banner.css">
-    <link rel="stylesheet" href="css/components.css/section.css">
+    <link rel="stylesheet" href="css/components.css/section-skills.css">
+    <link rel="stylesheet" href="css/components.css/section-project.css">
+    <link rel="stylesheet" href="css/components.css/card-project.css">
     <link rel="stylesheet" href="css/components.css/box.css">
     <link rel="stylesheet" href="css/components.css/button.css">
     <link rel="stylesheet" href="css/components.css/action.css">
     <link rel="stylesheet" href="css/components.css/skill-tec.css">
+    <link rel="stylesheet" href="css/components.css/wrapper-skill.css">
     <link rel="stylesheet" href="css/components.css/progress-bar.css">
-     
+
 </head>
 
 <body>
     <header class="header">
         <img src="imagens/logo.jpg" alt="Avatar do Marco Bruno">
-        <nav class="navigation"> <!--navigation -  navegação do site, tag utilizada para guardar os links de navegação-->
+        <nav class="navigation">
+            <!--navigation -  navegação do site, tag utilizada para guardar os links de navegação-->
             <a class="action" href="#" lang="en">Skills</a>
             <a class="action" href="#">Projetos</a>
             <a class="action" href="#">Sobre</a>
             <a class="action" href="#"">Contatos</a>
-        <a class="button" href="#" lang="en">Download CV</a>
+        <a class=" button" href="#" lang="en">Download CV</a>
         </nav>
     </header>
 
@@ -53,40 +57,105 @@
         </div>
     </section>
 
-        <section class="section">
-            <h2 class="main-title -second">Skills</h2>
-        
-            <article class="skill-tec"> 
-                <img class = icon src="imagens/ico_html5.png" alt="">
+    <section class="section">
+        <h2 class="main-title -second">Skills</h2>
+
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_html5.png" alt="Imagem em pixel ate do logo do HTML5">
                 <div class="right">
                     <h3 class="title">HTML</h3>
                     <progress class="progress-bar" max="100" value="70">
                         70%
                     </progress>
-                </div> 
-                <!-- 
-                <dt>CSS</dt>
-                <dd></dd>
+                </div>
+            </article>
 
-                <dt>JavaScript</dt>
-                <dd></dd>
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_nodejs.png" alt="Imagem em pixel ate do logo do Node JS">
+                <div class="right">
+                    <h3 class="title">Node JS</h3>
+                    <progress class="progress-bar" max="100" value="20">
+                        20%
+                    </progress>
+                </div>
+            </article>
 
-                <dt>React</dt>
-                <dd></dd>
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_css3.png" alt="Imagem em pixel ate do logo do CSS3">
+                <div class="right">
+                    <h3 class="title">CSS 3</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
 
-                <dt>NodeJS</dt>
-                <dd></dd>
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_tdd.png" alt="Imagem em pixel ate do logo do TDD">
+                <div class="right">
+                    <h3 class="title">TDD</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
 
-                <dt>TDD</dt>
-                <dd></dd>
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_js.png" alt="Imagem em pixel ate do logo do JavaScript">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
 
-                <dt>Rest API</dt>
-                <dd></dd>
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_restapi.png" alt="Imagem em pixel ate do logo do Rest API">
+                <div class="right">
+                    <h3 class="title">Rest API</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
 
-                <dt>UX</dt>
-                <dd></dd> -->
-                </article>
-        </section>
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_react.png" alt="Imagem em pixel ate do logo do REACT">
+                <div class="right">
+                    <h3 class="title">React</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+
+            <article class="skill-tec">
+                <img class=icon src="imagens/ico_ux.png" alt="Imagem em pixel ate do logo do UX">
+                <div class="right">
+                    <h3 class="title">UX</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section class="section-project">
+        <h2 class="main-title -second">Projetos</h2>
+
+        <figure class="card-project">
+            <img class="logo" src="imagens/firedlabs.png" alt="Logo da Firedlabs">
+        </figure>
+        <figure class="card-project">  
+            <img class="logo" src="imagens/collabcode.png" alt="Logo da Collabcode">
+        </figure>  
+        <figure class="card-project">  
+            <img class="logo" src="imagens/portfolio.png" alt="Avatar do Marco Bruno">
+        </figure>
+    </section>
 
 </body>
 
