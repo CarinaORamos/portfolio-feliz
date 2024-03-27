@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: #F25A70;
     color: #fff;
@@ -10,10 +10,10 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     background-color: #d36475;
 }
 
-.button:active{
+.main-button:active{
     background-color: #d74d62;
 }
