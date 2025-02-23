@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carina Ramos</title>
+    <title>Marco Bruno</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,6 +32,9 @@
     <link rel="stylesheet" href="css/components.css/button-arrow.css">
     <link rel="stylesheet" href="css/components.css/node-card.css">
     <link rel="stylesheet" href="css/components.css/main-carousel.css">
+    <link rel="stylesheet" href="css/components.css/main-form.css">
+    <link rel="stylesheet" href="css/components.css/main-label.css">
+    <link rel="stylesheet" href="css/components.css/main-input.css">
     <link rel="stylesheet" href="css/components.css/main-footer.css">
 
 </head>
@@ -52,7 +55,7 @@
     <section class="main-banner">
         <div class="wrapper">
             <div class="main-box">
-                <h1 class="main-title">CARINA RAMOS</h1>
+                <h1 class="main-title">Marco Bruno</h1>
                 <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
 
@@ -233,6 +236,22 @@
             Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
 
     </section>
+
+    <form class="main-form">
+        <legend class="main-title -second">Contatos</legend>
+
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="name" type="text" required>
+
+        <label class="main-label" for="email">Email</label>
+        <input class="main-input" id="email" type="email" required>
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input -textarea" id="message" required></textarea>
+
+        <!--<input type="submit" value="Enviar">-->
+        <button class="main-button -full" type="submit">Enviar</button>
+    </form>
 
     <footer class="main-footer">
         <a class="action" href="https://twitter.com" target="_blank">
