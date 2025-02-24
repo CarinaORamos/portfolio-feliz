@@ -8,12 +8,22 @@
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover {
     background-color: #d36475;
+    transform: scale(1.08);
 }
 
 .main-button:active{
     background-color: #d74d62;
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
